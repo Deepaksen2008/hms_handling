@@ -1,0 +1,43 @@
+.doctor-form {
+    width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .doctor-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .doctor-form div {
+    margin-bottom: 10px;
+  }
+  
+  .doctor-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .doctor-form input,
+  .doctor-form select {
+    width: 95%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .doctor-form .error {
+    color: red;
+    font-size: 12px;
+  }
+  
+  .doctor-form button[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
